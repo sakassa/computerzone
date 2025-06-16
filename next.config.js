@@ -7,6 +7,7 @@ const nextConfig = {
   basePath: process.env.NODE_ENV === 'production' ? '/computerzone' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/computerzone/' : '',
   trailingSlash: true,
+  distDir: 'out',
   async headers() {
     return [
       {

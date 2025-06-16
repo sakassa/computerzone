@@ -29,6 +29,7 @@ jobs:
           folder: out
           branch: gh-pages
           clean: true
+          single-commit: true
 
   deploy:
     environment:
