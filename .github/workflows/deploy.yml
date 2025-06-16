@@ -30,6 +30,7 @@ jobs:
           branch: gh-pages
           clean: true
           single-commit: true
+          commit-message: "Deploy to GitHub Pages"
 
   deploy:
     environment:
