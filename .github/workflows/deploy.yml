@@ -31,6 +31,7 @@ jobs:
           clean: true
           single-commit: true
           commit-message: "Deploy to GitHub Pages"
+          force: true
 
   deploy:
     environment:
